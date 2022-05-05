@@ -1,0 +1,299 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lora", serif;
+}
+
+.alinhado {
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  body {
+    position: absolute;
+  }
+}
+
+.background {
+  background-image: url(/img/background-foods-v4.png);
+  background-color: #a498b5;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: white;
+  width: 51%;
+  margin: 0rem auto 12rem auto;
+  color: #4d3c64;
+  padding: 3rem 4rem 4rem 4rem;
+  line-height: 3rem;
+  border-radius: 7.5rem;
+  box-shadow: black;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 78%;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 7rem;
+  padding-top: 3rem;
+}
+
+.logo {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.logo img {
+  width: 11rem;
+}
+
+@media (max-width: 600px) {
+  .logo img {
+    width: 8rem;
+  }
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+}
+
+h2 {
+  font-size: 1.6rem;
+  opacity: 0.75;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.2rem;
+    opacity: 0.75;
+  }
+}
+
+.navigation {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    margin-bottom: 1rem;
+  }
+  .navigation {
+    margin-bottom: 1rem;
+  }
+  .navigation ul {
+    width: 25%;
+  }
+  .navigation ul li {
+    width: 25%;
+    padding-right: 1rem;
+    font-size: 14px;
+    line-height: 2.5rem;
+  }
+}
+
+.Menu {
+  width: 150px;
+}
+
+.perfil img {
+  width: 9rem;
+  float: left;
+  margin-right: 1rem;
+}
+
+.fonte-media {
+  font-size: 1.7rem;
+}
+
+.titulo {
+  font-size: 1.9rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Exo 2", sans-serif;
+}
+
+.habilidades label {
+  display: inline-block;
+  width: 20rem;
+}
+
+.habilidades progress {
+  accent-color: #2e2d4c;
+}
+
+.fotos {
+  width: 100%;
+  text-align: center;
+  column-count: 2;
+}
+
+@media (max-width: 600px) {
+  .fotos {
+    column-count: 1;
+  }
+}
+
+.fotos img {
+  height: 90%;
+  width: 90%;
+  border-radius: 8px;
+  filter: grayscale(0.4);
+}
+
+@media (max-width: 600px) {
+  .fotos img {
+    width: 100%;
+    height: 16rem;
+  }
+}
+
+.fotos img:hover {
+  filter: none;
+}
+
+.btn-inicio {
+  width: auto;
+  height: auto;
+  position: fixed;
+  padding: 0.6rem 1.1rem;
+  color: white;
+  background-color: white;
+  border-radius: 50%;
+  right: 2rem;
+  bottom: 2rem;
+  opacity: 0.3;
+  font-size: 3rem;
+}
+
+.btn-inicio:hover {
+  opacity: 1;
+  background-color: linear-gradient();
+}
+
+.btn-inicio a:active {
+  color: #100d66;
+}
+
+.footer {
+  position: relative;
+  padding: 8rem;
+  background-color: #2b2948;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 6rem 0 6rem 0;
+  }
+}
+
+.logotipo {
+  color: #2e2d4c;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+  font-size: 1.8rem;
+  transform: translateX(50%);
+  padding-top: 13px;
+}
+
+.logomarca.fundo {
+  background-color: #fff;
+  width: 10rem;
+  height: 10rem;
+  float: right;
+  margin-right: 50%;
+  margin-top: -7.6rem;
+  transform: translate(50%) rotate(45deg);
+}
+
+.ponto {
+  list-style: disc;
+}
+
+li i {
+  margin-right: 1rem;
+}
+
+.links {
+  margin: 1rem 0rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+
+.links i {
+  color: #593b8b;
+  font-size: 22px;
+}
+
+.links i:hover {
+  color: #ffffff;
+}
+
+.xp {
+  margin-left: 2rem;
+}
+
+h4 a {
+  color: white;
+}
+
+h4 a:hover {
+  color: #593b8b;
+}
+
+h4 a:active {
+  color: #100d66;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .perfil img {
+    width: 9rem;
+    float: left;
+    margin-right: 1rem;
+  }
+  .btn-inicio {
+    right: 0.5rem;
+  }
+  .habilidades label {
+    display: inline-block;
+    width: 15rem;
+  }
+  .habilidades progress {
+    width: 15rem;
+  }
+  .navigation {
+    position: static;
+  }
+  .fonte-media {
+    font-size: 16px;
+    line-height: 2;
+  }
+}
